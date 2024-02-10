@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+#root {
+  width: 100vw;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+.defaultBtton {
+  cursor: pointer;
+  width: 95px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.defaultBtton:hover {
+  background-color: black;
+  color: white;
+}

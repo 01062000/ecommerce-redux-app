@@ -1,0 +1,22 @@
+.filterSection {
+  /*border: 1px solid red;*/
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+select[name="sort"],
+select[name="category"] {
+  min-width: 10%;
+  min-height: 50%;
+  cursor: pointer;
+  border: 1px solid #caced1;
+  border-radius: 0.25rem;
+  outline: none;
+}
+option:checked,
+option:hover {
+  background-color: black;
+  color: white;
+}
